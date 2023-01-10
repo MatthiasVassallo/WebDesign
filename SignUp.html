@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register</title>
+    <link rel="stylesheet" href="main.css">
+</head>
+<body id="Register">
+    <div class="navbar">
+      <ul>
+          <li><a href="./Home.html">Home </a></li>
+          <li><a href="./AboutUS.html">About Us</a></li>
+          <li><a href="./ContactUs.html">Contact Us</a></li>
+          <li><a href="./Games.html">Games</a></li>
+      </ul>
+  
+         <div class="center">
+          <h1>Register</h1>
+          <form method="post">
+            <div class="txt_field">
+              <span></span>
+              <input type="text" name="Name" required></input>
+              <label>Name</label>
+            </div>
+            <div class="txt_field">
+              <span></span>
+              <input type="text" name="Surname" required></input>
+              <label>Surname</label>
+            </div>
+          <div class="txt_field">
+            <span></span>
+            <input type="text" name="Email" required></input>
+            <label>Email</label>
+          </div>
+          <div class="txt_field">
+            <span></span>
+            <input type="number" name="Number" required></input>
+            <label>Phone Number</label>
+          </div>
+          <div class="txt_field">
+            <input type="password" name="Pass" required></input>
+            <span></span>
+            <label>Password</label>
+          </div>  
+          <button type="submit" value="Login" href="./Home.html" onclick="displayAlert()">Register</button> 
+        <script>
+          function displayAlert() {
+            alert('Your account has been created.');
+          }
+          </script> 
+          
+      
+      </form> 
+  </div>
+    </body>
+</html>

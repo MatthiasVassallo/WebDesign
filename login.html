@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login/Register</title>
+    <link rel="stylesheet" href="main.css">
+</head>
+<body id="Login">
+  <div class="navbar">
+    <ul>
+        <li><a href="./Home.html">Home </a></li>
+        <li><a href="./AboutUS.html">About Us</a></li>
+        <li><a href="./ContactUs.html">Contact Us</a></li>
+        <li><a href="./Games.html">Games</a></li>
+    </ul> </div>
+
+       <div class="center">
+        <h1>Login</h1>
+        <form method="post">
+        <div class="txt_field">
+          <span></span>
+          <input type="text" name="Email" required></input>
+          <label>Email</label>
+        </div>
+        <div class="txt_field">
+          <input type="password" name="Pass" required></input>
+          <span></span>
+          <label>Password</label>
+        </div>  
+        <button type="submit" value="Login" onclick="displayAlert()" href="./Home.html">Login</button> 
+        <script>
+           function formValidation() {
+            var Email = document.registration.Email
+            var Pass = document.registration.Pass;
+           }
+          function displayAlert() {
+            alert('You are logged in');
+          }
+          </script>
+        <div class="SignUp"></div>
+       <p> Not a member? <a href="SignUp.html">Sign Up Here!</a> </p> 
+    </form> 
+</div>
+  </body>
+</html>

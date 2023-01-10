@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Games</title>
+    <link rel="stylesheet" href="main.css">
+</head>
+<body id="Games">
+    <div class="navbar">
+        <ul>
+            <li><a href="./Home.html">Home </a></li>
+            <li><a href="./AboutUS.html">About Us</a></li>
+            <li><a href="./ContactUs.html">Contact Us</a></li>
+            <li><a href="./Games.html">Games</a></li>
+            <li><a id="login" href="login.html">Login/Register</a></li>
+        </ul>
+    </div>
+    <h1>Please Select One of the Following Games:</h1>
+
+    <div class="container">
+        <div class="images">
+           <img id="Roulette" src="./Images/Roulette.jpg" alt="Roulette" style="width: 250px;"> </a>
+            <p >Roulette</p> </div>
+            
+            <div class="images">
+              <img id="SlotMachine" src="./Images/SlotMachine.jpg" alt="Slot Machine" style="width: 250px;"> </a>
+                <p>Slot Machine</p> 
+             </div>
+            
+            <div class="images">
+                <img id="Poker" src="./Images/Poker.jpeg" alt="Poker" style="width: 250px;"> </a>
+                <p>Poker</p> 
+             </div> <br>
+             
+    </div>
+    <div class="container">
+        <div class="images">
+           <img id="Baccarat" src="./Images/Baccarat.jpg" alt="Baccarat" style="width: 250px;"> </a>
+            <p>Baccarat</p> </div>
+            
+            <div class="images">
+           <img id="Blackjack" src="./Images/Blackjack.jpg" alt="Blackjack" style="width: 250px;"> </a>
+                <p>Blackjack</p> 
+             </div>
+            
+            <div class="images">
+            <img id="WheelOfFortune" src="./Images/WheelOfFortune.jpg" alt="Wheel Of Fortune" style="width: 250px;"> </a>
+                <p>Wheel Of Fortune</p> 
+             </div> <br>
+             
+    </div>
+
+    <div class="container">
+        <div class="images">
+            <img id="BigSixWheel" src="./Images/BigSixWheel.jpg" alt="Big Six Wheel" style="width: 250px;"> </a>
+            <p>The Big Six Wheel</p> </div>
+            
+            <div class="images">
+            <img id="Pool" src="./Images/Pool.jpg" alt="Pool" style="width: 250px;"> </a>
+                <p>Pool</p> 
+             </div>
+            
+            <div class="images">
+            <img id="Craps" src="./Images/Craps.jpg" alt="Craps" style="width: 250px;"> </a>
+                <p>Crap</p> 
+             </div> <br>
+
+             <div id="myModal" class="modal">
+                <span class="close">&times;</span>
+                <img class="modal-content" id="img01">
+                <div id="caption"></div>
+             </div>
+             <script>
+             var modal = document.getElementById("myModal");
+
+            
+             var img = document.getElementById("Roulette");
+             var modalImg = document.getElementById("img01");
+             var captionText = document.getElementById("caption");
+             img.onclick = function(){
+               modal.style.display = "block";
+               modalImg.src = this.src;
+               captionText.innerHTML = this.alt;
+             }
+             
+            
+             var span = document.getElementsByClassName("close")[0];
+             
+             
+             span.onclick = function() {
+               modal.style.display = "none";
+             }
+             
+            </script>
+            <script>
+                var modal = document.getElementById("myModal");
+   
+               
+                var img = document.getElementById("SlotMachine");
+                var modalImg = document.getElementById("img01");
+                var captionText = document.getElementById("caption");
+                img.onclick = function(){
+                  modal.style.display = "block";
+                  modalImg.src = this.src;
+                  captionText.innerHTML = this.alt;
+                }
+                
+               
+                var span = document.getElementsByClassName("close")[0];
+                
+                
+                span.onclick = function() {
+                  modal.style.display = "none";
+                }
+                
+               </script>
+
+<script>
+    var modal = document.getElementById("myModal");
+
+   
+    var img = document.getElementById("Poker");
+    var modalImg = document.getElementById("img01");
+    var captionText = document.getElementById("caption");
+    img.onclick = function(){
+      modal.style.display = "block";
+      modalImg.src = this.src;
+      captionText.innerHTML = this.alt;
+    }
+    
+   
+    var span = document.getElementsByClassName("close")[0];
+    
+    
+    span.onclick = function() {
+      modal.style.display = "none";
+    }
+    
+   </script>
+   <script>
+    var modal = document.getElementById("myModal");
+
+   
+    var img = document.getElementById("Baccarat");
+    var modalImg = document.getElementById("img01");
+    var captionText = document.getElementById("caption");
+    img.onclick = function(){
+      modal.style.display = "block";
+      modalImg.src = this.src;
+      captionText.innerHTML = this.alt;
+    }
+    
+   
+    var span = document.getElementsByClassName("close")[0];
+    
+    
+    span.onclick = function() {
+      modal.style.display = "none";
+    }
+    
+   </script>
+
+<script>
+    var modal = document.getElementById("myModal");
+
+   
+    var img = document.getElementById("Blackjack");
+    var modalImg = document.getElementById("img01");
+    var captionText = document.getElementById("caption");
+    img.onclick = function(){
+      modal.style.display = "block";
+      modalImg.src = this.src;
+      captionText.innerHTML = this.alt;
+    }
+    
+   
+    var span = document.getElementsByClassName("close")[0];
+    
+    
+    span.onclick = function() {
+      modal.style.display = "none";
+    }
+    
+   </script>
+
+<script>
+    var modal = document.getElementById("myModal");
+
+   
+    var img = document.getElementById("WheelOfFortune");
+    var modalImg = document.getElementById("img01");
+    var captionText = document.getElementById("caption");
+    img.onclick = function(){
+      modal.style.display = "block";
+      modalImg.src = this.src;
+      captionText.innerHTML = this.alt;
+    }
+    
+   
+    var span = document.getElementsByClassName("close")[0];
+    
+    
+    span.onclick = function() {
+      modal.style.display = "none";
+    }
+    
+   </script>
+
+<script>
+    var modal = document.getElementById("myModal");
+
+   
+    var img = document.getElementById("BigSixWheel");
+    var modalImg = document.getElementById("img01");
+    var captionText = document.getElementById("caption");
+    img.onclick = function(){
+      modal.style.display = "block";
+      modalImg.src = this.src;
+      captionText.innerHTML = this.alt;
+    }
+    
+   
+    var span = document.getElementsByClassName("close")[0];
+    
+    
+    span.onclick = function() {
+      modal.style.display = "none";
+    }
+    
+   </script>
+
+<script>
+    var modal = document.getElementById("myModal");
+
+   
+    var img = document.getElementById("Pool");
+    var modalImg = document.getElementById("img01");
+    var captionText = document.getElementById("caption");
+    img.onclick = function(){
+      modal.style.display = "block";
+      modalImg.src = this.src;
+      captionText.innerHTML = this.alt;
+    }
+    
+   
+    var span = document.getElementsByClassName("close")[0];
+    
+    
+    span.onclick = function() {
+      modal.style.display = "none";
+    }
+    
+   </script>
+
+<script>
+    var modal = document.getElementById("myModal");
+
+   
+    var img = document.getElementById("Craps");
+    var modalImg = document.getElementById("img01");
+    var captionText = document.getElementById("caption");
+    img.onclick = function(){
+      modal.style.display = "block";
+      modalImg.src = this.src;
+      captionText.innerHTML = this.alt;
+    }
+    
+   
+    var span = document.getElementsByClassName("close")[0];
+    
+    
+    span.onclick = function() {
+      modal.style.display = "none";
+    }
+    
+   </script>
+    </div>
+</body>
+</html>
